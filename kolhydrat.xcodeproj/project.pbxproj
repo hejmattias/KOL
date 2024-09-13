@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9D090622C944F4300F5FDE5 /* kolhydratApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D090612C944F4300F5FDE5 /* kolhydratApp.swift */; };
+		B9D090642C944F4300F5FDE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D090632C944F4300F5FDE5 /* ContentView.swift */; };
+		B9D090662C944F4400F5FDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D090652C944F4400F5FDE5 /* Assets.xcassets */; };
+		B9D090692C944F4400F5FDE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D090682C944F4400F5FDE5 /* Preview Assets.xcassets */; };
+		B9D090732C944F4400F5FDE5 /* kolhydrat_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D090722C944F4400F5FDE5 /* kolhydrat_Watch_AppTests.swift */; };
+		B9D0907D2C944F4400F5FDE5 /* kolhydrat_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D0907C2C944F4400F5FDE5 /* kolhydrat_Watch_AppUITests.swift */; };
+		B9D0907F2C944F4400F5FDE5 /* kolhydrat_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D0907E2C944F4400F5FDE5 /* kolhydrat_Watch_AppUITestsLaunchTests.swift */; };
+		B9D0908C2C94501E00F5FDE5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D0908B2C94501E00F5FDE5 /* Models.swift */; };
+		B9D0908E2C9476F800F5FDE5 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D0908D2C9476F800F5FDE5 /* FoodDetailView.swift */; };
+		B9D090902C94785B00F5FDE5 /* PlateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D0908F2C94785B00F5FDE5 /* PlateView.swift */; };
+		B9D090922C94787E00F5FDE5 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D090912C94787E00F5FDE5 /* FoodListView.swift */; };
+		B9D090942C9478A900F5FDE5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D090932C9478A900F5FDE5 /* MainView.swift */; };
+		B9D090962C947E5800F5FDE5 /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D090952C947E5800F5FDE5 /* EditFoodView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9D0906F2C944F4400F5FDE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9D090562C944F4300F5FDE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9D0905D2C944F4300F5FDE5;
+			remoteInfo = "kolhydrat Watch App";
+		};
+		B9D090792C944F4400F5FDE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9D090562C944F4300F5FDE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9D0905D2C944F4300F5FDE5;
+			remoteInfo = "kolhydrat Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9D0905E2C944F4300F5FDE5 /* kolhydrat Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kolhydrat Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D090612C944F4300F5FDE5 /* kolhydratApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kolhydratApp.swift; sourceTree = "<group>"; };
+		B9D090632C944F4300F5FDE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9D090652C944F4400F5FDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9D090682C944F4400F5FDE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9D0906E2C944F4400F5FDE5 /* kolhydrat Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kolhydrat Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D090722C944F4400F5FDE5 /* kolhydrat_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kolhydrat_Watch_AppTests.swift; sourceTree = "<group>"; };
+		B9D090782C944F4400F5FDE5 /* kolhydrat Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kolhydrat Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D0907C2C944F4400F5FDE5 /* kolhydrat_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kolhydrat_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		B9D0907E2C944F4400F5FDE5 /* kolhydrat_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kolhydrat_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9D0908B2C94501E00F5FDE5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B9D0908D2C9476F800F5FDE5 /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
+		B9D0908F2C94785B00F5FDE5 /* PlateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateView.swift; sourceTree = "<group>"; };
+		B9D090912C94787E00F5FDE5 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		B9D090932C9478A900F5FDE5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B9D090952C947E5800F5FDE5 /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9D0905B2C944F4300F5FDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D0906B2C944F4400F5FDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D090752C944F4400F5FDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9D090552C944F4300F5FDE5 = {
+			isa = PBXGroup;
+			children = (
+				B9D090602C944F4300F5FDE5 /* kolhydrat Watch App */,
+				B9D090712C944F4400F5FDE5 /* kolhydrat Watch AppTests */,
+				B9D0907B2C944F4400F5FDE5 /* kolhydrat Watch AppUITests */,
+				B9D0905F2C944F4300F5FDE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9D0905F2C944F4300F5FDE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9D0905E2C944F4300F5FDE5 /* kolhydrat Watch App.app */,
+				B9D0906E2C944F4400F5FDE5 /* kolhydrat Watch AppTests.xctest */,
+				B9D090782C944F4400F5FDE5 /* kolhydrat Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9D090602C944F4300F5FDE5 /* kolhydrat Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B9D0908D2C9476F800F5FDE5 /* FoodDetailView.swift */,
+				B9D090612C944F4300F5FDE5 /* kolhydratApp.swift */,
+				B9D090632C944F4300F5FDE5 /* ContentView.swift */,
+				B9D0908B2C94501E00F5FDE5 /* Models.swift */,
+				B9D090652C944F4400F5FDE5 /* Assets.xcassets */,
+				B9D090672C944F4400F5FDE5 /* Preview Content */,
+				B9D0908F2C94785B00F5FDE5 /* PlateView.swift */,
+				B9D090912C94787E00F5FDE5 /* FoodListView.swift */,
+				B9D090932C9478A900F5FDE5 /* MainView.swift */,
+				B9D090952C947E5800F5FDE5 /* EditFoodView.swift */,
+			);
+			path = "kolhydrat Watch App";
+			sourceTree = "<group>";
+		};
+		B9D090672C944F4400F5FDE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9D090682C944F4400F5FDE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9D090712C944F4400F5FDE5 /* kolhydrat Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9D090722C944F4400F5FDE5 /* kolhydrat_Watch_AppTests.swift */,
+			);
+			path = "kolhydrat Watch AppTests";
+			sourceTree = "<group>";
+		};
+		B9D0907B2C944F4400F5FDE5 /* kolhydrat Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9D0907C2C944F4400F5FDE5 /* kolhydrat_Watch_AppUITests.swift */,
+				B9D0907E2C944F4400F5FDE5 /* kolhydrat_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "kolhydrat Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9D0905D2C944F4300F5FDE5 /* kolhydrat Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D090822C944F4400F5FDE5 /* Build configuration list for PBXNativeTarget "kolhydrat Watch App" */;
+			buildPhases = (
+				B9D0905A2C944F4300F5FDE5 /* Sources */,
+				B9D0905B2C944F4300F5FDE5 /* Frameworks */,
+				B9D0905C2C944F4300F5FDE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kolhydrat Watch App";
+			productName = "kolhydrat Watch App";
+			productReference = B9D0905E2C944F4300F5FDE5 /* kolhydrat Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9D0906D2C944F4400F5FDE5 /* kolhydrat Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D090852C944F4400F5FDE5 /* Build configuration list for PBXNativeTarget "kolhydrat Watch AppTests" */;
+			buildPhases = (
+				B9D0906A2C944F4400F5FDE5 /* Sources */,
+				B9D0906B2C944F4400F5FDE5 /* Frameworks */,
+				B9D0906C2C944F4400F5FDE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9D090702C944F4400F5FDE5 /* PBXTargetDependency */,
+			);
+			name = "kolhydrat Watch AppTests";
+			productName = "kolhydrat Watch AppTests";
+			productReference = B9D0906E2C944F4400F5FDE5 /* kolhydrat Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9D090772C944F4400F5FDE5 /* kolhydrat Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D090882C944F4400F5FDE5 /* Build configuration list for PBXNativeTarget "kolhydrat Watch AppUITests" */;
+			buildPhases = (
+				B9D090742C944F4400F5FDE5 /* Sources */,
+				B9D090752C944F4400F5FDE5 /* Frameworks */,
+				B9D090762C944F4400F5FDE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9D0907A2C944F4400F5FDE5 /* PBXTargetDependency */,
+			);
+			name = "kolhydrat Watch AppUITests";
+			productName = "kolhydrat Watch AppUITests";
+			productReference = B9D090782C944F4400F5FDE5 /* kolhydrat Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9D090562C944F4300F5FDE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B9D0905D2C944F4300F5FDE5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B9D0906D2C944F4400F5FDE5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B9D0905D2C944F4300F5FDE5;
+					};
+					B9D090772C944F4400F5FDE5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B9D0905D2C944F4300F5FDE5;
+					};
+				};
+			};
+			buildConfigurationList = B9D090592C944F4300F5FDE5 /* Build configuration list for PBXProject "kolhydrat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9D090552C944F4300F5FDE5;
+			productRefGroup = B9D0905F2C944F4300F5FDE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9D0905D2C944F4300F5FDE5 /* kolhydrat Watch App */,
+				B9D0906D2C944F4400F5FDE5 /* kolhydrat Watch AppTests */,
+				B9D090772C944F4400F5FDE5 /* kolhydrat Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9D0905C2C944F4300F5FDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D090692C944F4400F5FDE5 /* Preview Assets.xcassets in Resources */,
+				B9D090662C944F4400F5FDE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D0906C2C944F4400F5FDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D090762C944F4400F5FDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9D0905A2C944F4300F5FDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D090922C94787E00F5FDE5 /* FoodListView.swift in Sources */,
+				B9D090942C9478A900F5FDE5 /* MainView.swift in Sources */,
+				B9D0908C2C94501E00F5FDE5 /* Models.swift in Sources */,
+				B9D0908E2C9476F800F5FDE5 /* FoodDetailView.swift in Sources */,
+				B9D090642C944F4300F5FDE5 /* ContentView.swift in Sources */,
+				B9D090622C944F4300F5FDE5 /* kolhydratApp.swift in Sources */,
+				B9D090962C947E5800F5FDE5 /* EditFoodView.swift in Sources */,
+				B9D090902C94785B00F5FDE5 /* PlateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D0906A2C944F4400F5FDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D090732C944F4400F5FDE5 /* kolhydrat_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D090742C944F4400F5FDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D0907D2C944F4400F5FDE5 /* kolhydrat_Watch_AppUITests.swift in Sources */,
+				B9D0907F2C944F4400F5FDE5 /* kolhydrat_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9D090702C944F4400F5FDE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9D0905D2C944F4300F5FDE5 /* kolhydrat Watch App */;
+			targetProxy = B9D0906F2C944F4400F5FDE5 /* PBXContainerItemProxy */;
+		};
+		B9D0907A2C944F4400F5FDE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9D0905D2C944F4300F5FDE5 /* kolhydrat Watch App */;
+			targetProxy = B9D090792C944F4400F5FDE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B9D090802C944F4400F5FDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9D090812C944F4400F5FDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B9D090832C944F4400F5FDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kolhydrat Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD2P3P8L7B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = kolhydrat;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		B9D090842C944F4400F5FDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kolhydrat Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD2P3P8L7B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = kolhydrat;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		B9D090862C944F4400F5FDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZD2P3P8L7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MG.kolhydrat-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kolhydrat Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kolhydrat Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		B9D090872C944F4400F5FDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZD2P3P8L7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MG.kolhydrat-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kolhydrat Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kolhydrat Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		B9D090892C944F4400F5FDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZD2P3P8L7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MG.kolhydrat-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "kolhydrat Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		B9D0908A2C944F4400F5FDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZD2P3P8L7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MG.kolhydrat-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "kolhydrat Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9D090592C944F4300F5FDE5 /* Build configuration list for PBXProject "kolhydrat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D090802C944F4400F5FDE5 /* Debug */,
+				B9D090812C944F4400F5FDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9D090822C944F4400F5FDE5 /* Build configuration list for PBXNativeTarget "kolhydrat Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D090832C944F4400F5FDE5 /* Debug */,
+				B9D090842C944F4400F5FDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9D090852C944F4400F5FDE5 /* Build configuration list for PBXNativeTarget "kolhydrat Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D090862C944F4400F5FDE5 /* Debug */,
+				B9D090872C944F4400F5FDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9D090882C944F4400F5FDE5 /* Build configuration list for PBXNativeTarget "kolhydrat Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D090892C944F4400F5FDE5 /* Debug */,
+				B9D0908A2C944F4400F5FDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9D090562C944F4300F5FDE5 /* Project object */;
+}
